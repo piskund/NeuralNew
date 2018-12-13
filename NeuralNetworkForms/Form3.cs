@@ -15,7 +15,7 @@ namespace NeuralNetworkForms
 			_form1 = form1;
 			_form2 = form2;
 			_form4 = new Form4(this);
-			_form5 = new Form5();
+			_form5 = new Form5(this);
 			InitializeComponent();
 			AddOwnedForm(_form4);
 			AddOwnedForm(_form5);
