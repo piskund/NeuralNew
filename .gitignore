@@ -1,0 +1,5 @@
+/.vs/XorNeuralNetwork/v15/*.suo
+/.vs/XorNeuralNetwork/v15/Server/sqlite3/*.lock
+/.vs/XorNeuralNetwork/v15/Server/sqlite3/*.ide
+/.vs/XorNeuralNetwork/v15/Server/sqlite3/*.ide-shm
+/.vs/XorNeuralNetwork/v15/Server/sqlite3/*.ide-wal

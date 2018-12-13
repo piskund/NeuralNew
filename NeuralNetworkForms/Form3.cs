@@ -8,13 +8,14 @@ namespace NeuralNetworkForms
 		public readonly Form1 _form1;
 		public readonly Form2 _form2;
 		public readonly Form4 _form4;
-		public readonly Form5 _form5 = new Form5();
+		public readonly Form5 _form5;
 
 		public Form3(Form1 form1, Form2 form2)
 		{
 			_form1 = form1;
 			_form2 = form2;
 			_form4 = new Form4(this);
+			_form5 = new Form5();
 			InitializeComponent();
 			AddOwnedForm(_form4);
 			AddOwnedForm(_form5);
@@ -61,6 +62,8 @@ namespace NeuralNetworkForms
 
 		private void label2_Click(object sender, EventArgs e)
 		{
+			_form5.Show();
+			Hide();
 		}
 	}
 }
