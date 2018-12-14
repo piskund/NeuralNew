@@ -10,3 +10,4 @@
 /.vs/XorNeuralNetwork/v15/Server/sqlite3/*.ide-shm
 /.vs/XorNeuralNetwork/v15/Server/sqlite3/*.ide-wal
 /NeuralNetworkForms/*.user
+/.vs/XorNeuralNetwork/DesignTimeBuild/*.dtbcache
